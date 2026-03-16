@@ -10,10 +10,11 @@
     <header class="header">
         <nav class="container header__nav">
             <a href="#" class="header__logo"><img src="images/logo.svg" alt=""></a>
+            <button class="burger">=</button>
             <ul class="header__list">
-                <li><a href="#" class="header__link">About us</a></li>
-                <li><a href="#" class="header__link">Catalog</a></li>
-                <li><a href="" class="header__link">Contacts</a></li>
+                <li><a href="#about" class="header__link">About us</a></li>
+                <li><a href="#catalog" class="header__link">Catalog</a></li>
+                <li><a href="#contacts" class="header__link">Contacts</a></li>
             </ul>
             <form class="header_search">
                 <input type="text" placeholder="Поиск">
@@ -31,7 +32,7 @@
                 </div>
             </div>
         </section>
-        <section class="about">
+        <section class="about" id="about">
             <h2 class="about__info">About us</h2>
             <div class="container about__content">
                  <img src="images/about.png" alt="">
@@ -41,28 +42,28 @@
                 </p>
             </div>
         </section>
-         <section class="container catalog">
+         <section class="container catalog" id="catalog">
             <h2 class="title">Catalog</h2>
             <div class="catalog__content">
                 <a href="#">
-                    <img src="images/clothes.png" alt="">
+                    <img class="image" src="images/clothes.png" alt="">
                     <h3>Clothes</h3>
                 </a>
                 <a href="#">
-                    <img src="images/shoes.png" alt="">
+                    <img class="image" src="images/shoes.png" alt="">
                     <h3>Shoes</h3>
                 </a>
                 <a href="#">
-                    <img src="images/tent.png" alt="">
+                    <img class="image" src="images/tent.png" alt="">
                     <h3>Tents</h3>
                 </a>
                 <a href="#">
-                    <img src="images/backpack.png" alt="">
+                    <img class="image" src="images/backpack.png" alt="">
                     <h3>Backpacks</h3>
                 </a>
             </div>
          </section>
-         <section class="container contacts">
+         <section class="container contacts" id="contacts">
             <h2 class="contacts__title">Contacts</h2>
             <div class="contacts__content">
                 <p>Сontact us for details of product availability, you can also arrange delivery.</p>
